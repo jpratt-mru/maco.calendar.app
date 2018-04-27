@@ -1,0 +1,23 @@
+{
+  "name": "maco.calendar.app",
+  "version": "1.0.0",
+  "description": "maco calendar app",
+  "main": "index.js",
+  "dependencies": {
+    "systemjs": "^0.21.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpratt-mru/maco.calendar.app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpratt-mru/maco.calendar.app/issues"
+  },
+  "homepage": "https://github.com/jpratt-mru/maco.calendar.app#readme"
+}
