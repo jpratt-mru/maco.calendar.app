@@ -14,14 +14,20 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 
 <body>
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
-
-
+    <script>
+        SystemJS.config({
+            paths: {
+                "jquery": "./node_modules/jquery/dist/jquery.js"
+            }
+        });
+        SystemJS.import('src/app.js');
+    </script>
 </body>
 
 </html>
